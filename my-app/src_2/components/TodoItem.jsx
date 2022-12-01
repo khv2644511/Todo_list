@@ -129,8 +129,7 @@ export default function TodoItem({ data, setTodoData }) {
         isDone={data.isDone}
         onClick={onTodoItemClick}
         onDoubleClick={onTodoItemDoubleClick}
-        animationDuration={animationDuration}
-      >
+        animationDuration={animationDuration}>
         <input ref={checkboxRef} type="checkbox" className="sr-only" />
         {data.text}
       </Label>

@@ -10,7 +10,6 @@ const GlobalStyle = createGlobalStyle`
   body{
     background-color: #eff0f4;
   }
-  /* 스크린리더가 읽어주는데 안보임 */
   .sr-only{
     position: absolute;
     width: 1px;
